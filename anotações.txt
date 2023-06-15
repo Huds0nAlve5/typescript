@@ -1,0 +1,13 @@
+npm i -g typescript -> instalação
+
+comando tcs compila o arquivo ts e joga no arquivo destino na configuração dentro do json (inDir e outDir, ts e js)
+
+tcs -w -> as alterações são refletidas ao vivo
+
+any -> qualquer tipo
+
+type numOrString = number | string
+
+const x:numOrString = ....
+
+type vetorDeNum = number[] limita o vetor a um tipo
